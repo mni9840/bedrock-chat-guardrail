@@ -1,0 +1,11 @@
+aws_region             = "us-east-1"
+project_name           = "bedrock-chat-guardrail"
+environment            = "prod"
+bedrock_model_id       = "amazon.nova-lite-v1:0"
+lambda_jar_path        = "../build/libs/bedrock-chat-lambda.jar"
+lambda_memory_mb       = 1024
+lambda_timeout_seconds = 29
+log_retention_days     = 30
+enable_bedrock_guardrail = true
+bedrock_guardrail_version = "DRAFT"
+
